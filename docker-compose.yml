@@ -2,8 +2,6 @@ version: '3'
 
 services:
   web:
-    image: vsplate/centos_apache2_php5_mysql5:latest
-    volumes:
-      - ./html/:/var/www/html/
+    image: vsplate/ecshop_2.7.3_utf8_installed:latest
     ports:
       - "80:80"
